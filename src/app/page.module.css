@@ -8,9 +8,11 @@
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
@@ -27,6 +29,7 @@
 
 .description p {
   position: relative;
+  white-space: pre;
   margin: 0;
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
